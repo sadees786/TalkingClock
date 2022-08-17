@@ -36,7 +36,7 @@ namespace UnitTestTalkingClock
             var TestHrs = 6;
             var TestMins = 30;
             var timeFormat = ConvertToWords.ConverttoWords(TestHrs, TestMins); ;
-            Assert.AreEqual("Half past Six", timeFormat.Trim());
+            Assert.AreEqual("Half past six", timeFormat.Trim());
         }
     }
 }

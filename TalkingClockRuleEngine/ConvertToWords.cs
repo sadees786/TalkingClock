@@ -18,7 +18,7 @@ namespace TalkingClockRuleEngine
                         };
 
             if (m == 0)
-                return (char.ToUpper(hours[h][0]) + hours[h].Substring(1)+ " o'clock ");
+                return (char.ToUpper(hours[h][0]) + hours[h].Substring(1)+ " o'clock");
 
             if (m == 1)
                 return ("One minute past " + hours[h]);
